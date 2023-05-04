@@ -219,6 +219,12 @@ public:
                 }
         }
 
+        void EatFish()
+        {
+            score += 250;
+        }
+
+
         //
         int getX() {return x;}
         int getY() {return y;}
@@ -590,6 +596,18 @@ public:
                         for (int i = 0; i < SMS.size(); i++)
                         {
                                 SMS[i].Moving();
+
+                                if (F.getScore() > 300 && SMS[i].Detect(F))
+                                {
+                                    SMS.erase(SMS.begin() + i);
+                                    F.EatFish();
+                                }
+                                else if (F.getScore() < 300 && SMS[i].Detect(F))
+                                {
+                                    GameOver(status);
+                                    break;
+                                }
+
                         }
 
 
