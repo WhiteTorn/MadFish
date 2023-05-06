@@ -373,7 +373,7 @@
         // DETECT IF IT INTERSECTS WITH FISH!
         int Detect(Fish& F)
         {
-            if ((F.getY() == getY() && (F.getX() >= getX() && F.getX() <= getX() + 12)) || (F.getY() == getY() - 1 && (F.getX() >= getX() && F.getX() <= getX() + 12)) || (F.getY() == getY() - 2 && (F.getX() >= getX() && F.getX() <= getX() + 12)) || (F.getY() == getY() + 1 && (F.getX() >= getX() && F.getX() <= getX() + 12)) || (F.getY() == getY() + 2 && F.getX() == getX() + 8 ))
+            if ((F.getY() == getY() && (F.getX() >= getX() && F.getX() <= getX() + 12)) || (F.getY() == getY() - 1 && (F.getX() >= getX() && F.getX() <= getX() + 12)) || (F.getY() == getY() - 2 && (F.getX() >= getX() && F.getX() <= getX() + 12)))
             {
                 return 1;
             }
