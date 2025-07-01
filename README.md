@@ -12,7 +12,7 @@ That's all , be aware spoilers.
 
 ---
 
-Thanks for Idea Sidze and MJ.
+Thanks for idea _Sidze and MJ_.
 
 Super Interesting Story by **someone 🤍**
 
