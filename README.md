@@ -5,6 +5,7 @@ Ncurses game on CPP
 
 ## Story
 You are Legend, You are Golden Fish.
+Defeat **ZAKO**
 That's all , be aware spoilers.
 
 
@@ -14,7 +15,7 @@ That's all , be aware spoilers.
 
 Thanks for idea _Sidze and MJ_.
 
-Super Interesting Story by **someone 🤍**
+Super Interesting Story by **Someone 🤍**
 
 
 
